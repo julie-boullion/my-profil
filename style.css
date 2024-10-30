@@ -1,0 +1,95 @@
+/* Colors and fonts */
+body {
+	background-color: #FBFBFB;
+	color: rgb(50,50,50);
+	font-family: lato;
+}
+
+h1 {
+	color: #608BC1;
+	font-size: 45;
+	font-family: "DM Serif Display", serif;
+	font-weight: 700;
+	font-style: normal;
+	text-align: center;
+}
+
+h2{
+	color: rgb(50, 50, 50);
+	font-size: 28;
+	font-family: times;
+}
+
+a {
+	text-decoration: none;
+	color: #FBFBFB;
+	font-weight: bolder;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+/*Custom design with class*/
+
+.card-green {
+	background-color: #C9E9D2;
+	width: 700px;
+  	margin: 40px auto;
+  	padding: 30px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card-beige {
+	background-color: #FEF9F2;
+	width: 700px;
+	margin: 40px auto;
+	padding: 30px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+	text-align: center;
+	border-radius: 10px;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+#card-blue {
+	background-color: #608BC1;
+	padding: 15px 20px;
+	margin: 30px;
+	border-radius: 4px;
+}
+
+#card-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i { 
+	font-size: 50px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
